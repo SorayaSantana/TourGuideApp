@@ -1,0 +1,117 @@
+<!-- Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">CanariasTourGuide</string>
+    <!-- Category name for Routes [CHAR LIMIT=20] -->
+    <string name="category_routes">Routes</string>
+    <!-- Category name for Gastronomy tourItems [CHAR LIMIT=20] -->
+    <string name="category_gastronomy">Gastro</string>
+    <!-- Category name for Islands tourItems [CHAR LIMIT=20] -->
+    <string name="category_islands">Islands</string>
+    <!-- Category name for Location tourItems [CHAR LIMIT=20] -->
+    <string name="category_location">Locations</string>
+
+    <!--  Name tourItem for lanzarote [CHAR LIMIT=20] -->
+    <string name="island_lanza">Lanzarote</string>
+    <string name="island_lanza_citizens">Population: 150.998</string>
+    <string name="island_lanza_mains">Main attractions: volcanos National Park</string>
+    <!-- Name tourItem for the Fuerteventura [CHAR LIMIT=20] -->
+    <string name="island_fuerte">Fuerteventura</string>
+    <string name="island_fuerte_citizens">Population: 122.629</string>
+    <string name="island_fuerte_mains">Main attractions: Beaches and surf</string>
+    <!-- Name tourItem for  Gran Canaria[CHAR LIMIT=20] -->
+    <string name="island_gc">Gran Canaria</string>
+    <string name="island_gc_citizens">Population: 865.756</string>
+    <string name="island_gc_mains">Main attractions: Mountains and beaches</string>
+    <!-- Name tourItem for Tenerife [CHAR LIMIT=20] -->
+    <string name="island_tf">Tenerife</string>
+    <string name="island_tf_citizens">Population: 949.471</string>
+    <string name="island_tf_mains">Main attractions: Highest mountain of Spain National Park</string>
+    <!-- Name tourItem for La Gomera [CHAR LIMIT=20] -->
+    <string name="island_gomera">La Gomera</string>
+    <string name="island_gomera_citizens">Population: 22.100</string>
+    <string name="island_gomera_mains">Main attractions: Garajonay National Park</string>
+    <!-- Name tourItem for La Palma [CHAR LIMIT=20] -->
+    <string name="island_lapalma">La Palma</string>
+    <string name="island_lapalma_citizens">Population: 84.793</string>
+    <string name="island_lapalma_mains">Main attractions: Caldera Taburiente National Park</string>
+    <!-- Name tourItem for El Hierro [CHAR LIMIT=20] -->
+    <string name="island_hierro">El Hierro</string>
+    <string name="island_hierro_citizens">Population: 11.154</string>
+    <string name="island_hierro_mains">Main attractions: Scuba diving</string>
+
+    <!-- tourItem for the locations [CHAR LIMIT=20] -->
+    <string name="location_one">Maspalomas</string>
+    <string name="location_one_island">Island: Gran Canaria</string>
+    <string name="location_one_desc">Long beach of more than 4 kilometers full of dunes of white sand</string>
+
+    <string name="location_two">Teide</string>
+    <string name="location_two_island">Island: Tenerife</string>
+    <string name="location_two_desc">Highest peak of Spain almost 4000 meters. Ancient volcano. Declared National Park</string>
+
+    <string name="location_three">Timanfaya</string>
+    <string name="location_three_island">Island: Lanzarote</string>
+    <string name="location_three_desc">Volcanoes National Park with guided visit. Amazing attractions and restaurant using the heat from the earth</string>
+
+    <string name="location_four">Garajonay</string>
+    <string name="location_four_island">Island: La Gomera</string>
+    <string name="location_four_desc">Laurisilva forest National Park. Perfect for hiking. Greenery all around you and fresh air</string>
+
+    <string name="location_five">Mar de las Calmas diving center</string>
+    <string name="location_five_island">Island: El Hierro</string>
+    <string name="location_five_desc">Best place to underwater sports. Scuba diving clubs and renting. Also guided diving</string>
+
+    <string name="location_six">Caldera de Taburiente</string>
+    <string name="location_six_island">Island: La Palma</string>
+    <string name="location_six_desc"> National park in an amazing large volcano crater with a regular water course (there is no rivers in any island). Perfect for hiking</string>
+
+    <string name="location_seven">Cofete Beach</string>
+    <string name="location_seven_island">Island: Fuerteventura</string>
+    <string name="location_seven_desc"> Super large white sand beach. Isolated and no population around. Get there after 9 kilometers of a not paved road (no problem even for small cars): this is the secret of its authenticity</string>
+
+    <!-- tourItem for the Gastro [CHAR LIMIT=20] -->
+    <string name="gastro_one">Sancocho</string>
+    <string name="gastro_one_island">Island: All, specially Gran Canaria</string>
+    <string name="gastro_one_desc"> Stew with potatoes, local salted fish, sweet potatoes, Pella de gofio, Mojo picón as sauce </string>
+
+    <string name="gastro_two">Mojo Picón</string>
+    <string name="gastro_two_island">Island: All</string>
+    <string name="gastro_two_desc"> Local spicy Sauce with garlic, olive oil, vinegar, cilantro(green mojo), pepers (green or red mojo) </string>
+
+    <string name="gastro_three"> Wrinkled Potatoes</string>
+    <string name="gastro_three_island">Island: All</string>
+    <string name="gastro_three_desc"> Local popular dish of small potatoes with mojo Picón sauce. Potatoes are cooked with its peel and salt so it makes the peel get wrinkled</string>
+
+    <string name="gastro_four"> Fish soup</string>
+    <string name="gastro_four_island">Island: All but special recipe in Fuerteventura</string>
+    <string name="gastro_four_desc">Home made soup with large local fish (Mero, Sama). Served a fist course with soup and the fish and potatoes cooked in the soup separated as second course</string>
+
+    <!-- tourItem for the Routes [CHAR LIMIT=20] -->
+    <string name="route_one">"The beaches lovers"</string>
+    <string name="route_one_island">Islands: Gran Canaria, Fuerteventura, Lanzarote, La Palma </string>
+    <string name="route_one_desc">"Beach lover? this is your route. A selection of the best beaches in all the islands, from white sand ones to the special local ones with Black sand (volcano origin). Cofete Beach (Fuerteventura), Cotillo Beach (Fuerteventura), Corralejo (Fuerteventura), Maspalomas (Gran Canaria), Nogales Beach (La Palma), Famara (Lanzarote)"</string>
+
+    <string name="route_two">"The volcanoes"</string>
+    <string name="route_two_island">Islands: Lanzarote, Tenerife, La Palma</string>
+    <string name="route_two_desc">"Lanzarote offers the major Volcano interest for visitors in Timanfaya National Park. Tenerife has the Teide National Park where an isolated volcano is the highest peak of Spain. However, do not miss La Palma, the most active volcanoes today and recent eruptions took placed here in 2021"</string>
+
+    <string name="route_three">"Hiking the islands"</string>
+    <string name="route_three_island">Islands: La Palma, La Gomera, Tenerife, Gran Canaria, El Hierro</string>
+    <string name="route_three_desc">"All these islands offer the paradise for hiking lovers of all levels. Difficult routes but also very familiy tailored ones. Some islands offer annual hiking events which facilitates the planning and logistics and offer guides"</string>
+
+    <string name="search_error">"Error trying to search in google."</string>
+
+</resources>
