@@ -44,7 +44,7 @@ public class LocationsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.tour_item_list, container, false);
 
         // Create a list of tour items
-        final ArrayList<TourItem> tourItems = new ArrayList<TourItem>();
+        final ArrayList<TourItem> tourItems = new ArrayList<>();
         tourItems.add(new TourItem(R.string.location_one, R.string.location_one_island,
                                     R.string.location_one_desc,
                                     R.drawable.maspalomas));
@@ -68,7 +68,7 @@ public class LocationsFragment extends Fragment {
         // adapter knows how to create list items for each item in the list.
         TourItemAdapter adapter = new TourItemAdapter(getActivity(), tourItems, R.color.category_color);
 
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        ListView listView = rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
 
         // Set a click listener to search on google when item clicked

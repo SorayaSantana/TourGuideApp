@@ -43,7 +43,7 @@ public class GastronomyFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.tour_item_list, container, false);
 
         // Create a list of tour items
-        final ArrayList<TourItem> tourItems = new ArrayList<TourItem>();
+        final ArrayList<TourItem> tourItems = new ArrayList<>();
         tourItems.add(new TourItem(R.string.gastro_one, R.string.gastro_one_island, R.string.gastro_one_desc));
         tourItems.add(new TourItem(R.string.gastro_two, R.string.gastro_two_island, R.string.gastro_two_desc));
         tourItems.add(new TourItem(R.string.gastro_three, R.string.gastro_three_island, R.string.gastro_three_desc));
@@ -53,7 +53,7 @@ public class GastronomyFragment extends Fragment {
         // adapter knows how to create list items for each item in the list.
         TourItemAdapter adapter = new TourItemAdapter(getActivity(), tourItems, R.color.category_color);
 
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        ListView listView = rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
 
         // Set a click listener to search on google when item clicked
