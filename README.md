@@ -5,6 +5,6 @@ training from Audacity.
 ## Tech details for review and use
 Build gradle: 
         minSdkVersion 21
-        targetSdkVersion 33
+        targetSdkVersion 31
 
 Tested on Pixel API 30 virtual device. Android 11.0
